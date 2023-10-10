@@ -1,0 +1,33 @@
+
+<div class="project">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h2 class="hm">SchoolBlocks Sponsorship Commerce &amp; Management</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-5 columns">
+      <img class="img-project" src="img/portfolio/sc-sb-commerce.png"/>
+    </div>
+    <div class="medium-7 columns pt-15">
+      As an added feature for SchoolBlocks' school websites, sponsors can pay to sponsor any number of schools. Once their sponsorship is approved, they get billed on a subscription type basis.
+      <br/><br/>
+      The e-commerce needed to allow for any number of schools to be sponsored and a way to view/manage the account for all the
+      schools that are sponsored.
+      A tax receipt, payment details and account history needed to be available for sponsors via their account. Sponsors needed to be able
+      to add additional schools and/or cancel sponsorships.
+      The sponsor system needed to manage business logic with the cms platform, but needed to be easily
+      attached/removed to school sites as needed.
+      <br/><br/>
+      The sponsorship system is built using a stand alone module (Yii) to exist independently from the main application.
+      <a href="https://stripe.com/docs/api" target="_blank">Stripe's API</a> is used with a custom class wrapper to access and control API methods.
+      The subscription plans, coupons, customers and their accounts are tracked in the
+      application but managed via Stripe's API. The process includes creating a pending account until SchoolBlocks and the school district
+      approve the sponsor. Once approved the sponsor's subscription is charged for the number of sponsored schools they selected in the school
+      selection page during their checkout.
+      <br/><br/>
+      Sponsors can be managed both at the website and at Stripe's website. Their sponsorship provides them with a listing on the sponsors
+      page of the district and school site, an ad on the schools' front page and an editable sponsorship card.
+    </div>
+  </div>
+</div>

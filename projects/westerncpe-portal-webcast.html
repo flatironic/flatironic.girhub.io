@@ -1,0 +1,39 @@
+
+<div class="project">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h2 class="hm">Western CPE Webcast System</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-5 columns">
+      <img class="img-project" src="img/portfolio/wcpe-portal-webcast.png"/>
+    </div>
+    <div class="medium-7 columns pt-15">
+      Courses from Western CPE is available via live seminars, self-study (online content/exam) and webcast (video/slides/questions with attendance checks).
+      Webcasts are required by NASBA (National Association of State Boards of Accountancy) to simulate a live experience.
+      <br/><br/>
+      The requirements include a "real time" video that does not pause and will continue to play if the user leaves and returns. Slides need to follow the video and change at specific times.
+      There needs to be a question/answer option for viewers to ask questions that get answered within minutes and provided without refreshing the webcast.
+      Attendance checks display during the webcast have to display in a non-predictable manner and record their response.
+      <br/><br/>
+      Whew! No problem... using Vue.js with API services and loading the components via Javascript promises. JW Player was selected because of their robust API, which allowed me to
+      mimic live television based off a webcast start value and utilize the timeline of the video to trigger attendence check events and page slide changes.
+      <br/><br/>
+      PDF.js allows webcasts to use one pdf file and load slides as PDF page changes. The app allows for slides that are included in the video itself, modifying the layout based as needed.
+      <br/><br/>
+      A footer control section displays the status of the attendance checks and provids links to course materials and a fullscreen option.
+      The fullscreen option gives a true fullscreen experience while maintaining the layout and functionality of the application.
+      <br/><br/>
+      Questions can be asked which sends questions to "moderators" that place "dibs" on the question as the first step to answering.
+      The answers then load via polling in line with the previous questions/answers that moderators chose to include as part of the webcast for future viewers.
+      These questions scroll to follow the timeline of the video to always display in a relevant manner.
+      <br/><br/>
+      An intro screen with instructions and overview and a conclusion screen with the user's results sandwich the webcast experience.
+      <br/><br/>
+      Lastly, I built a webcast builder app that allows for administrators to add the webcast course with segments, videos, PDFs and the associated time/page slide changes and attendance checks.
+      <br/><br/>
+      <em style="font-style: italic">*The webcast system is not yet used for production.</em>
+    </div>
+  </div>
+</div>

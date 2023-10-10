@@ -1,0 +1,32 @@
+
+<div class="project">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h2 class="hm">GetEvent Calendar List View</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-5 columns">
+      <img class="img-project" src="img/portfolio/sc-ge-calendar-list.png"/>
+    </div>
+    <div class="medium-7 columns pt-15">
+      GetEvent was an endurance sport calendar and registration site. Event directors would add their
+      events to the calendar and could include a customizable registration system for their events.
+      <br/><br/>
+      The event calendar needed to include as many events as possible to be a desirable destination for users. Simple searching and geolocation were features that needed to exist to
+      make the calendar usable.
+      <br/><br/>
+      I built a RESTful API using PHP/CodeIgniter to provide services for a JavaScript module that would utilize free IP lookup GeoLocation services. The module would make an AJAX request for a specified
+      radius from the results of the GeoLocation lookup, if the service failed then a graceful alternative using a date based query would display. The RESTful API returned JSON and templating was handled using Handlebars.
+      Infinite scolling and a responsive design made the search usable and elegant.
+      <br/><br/>
+      Code Samples: <a href="https://github.com/flatironic/Samples" target="_blank">https://github.com/flatironic/Samples</a>  : /event-search
+      <br/><br/>
+      Any event director could add their events. Additionally an import tool was built that would target affiliate event registration sites and populate the database with api results combined with data scraping to
+      create event pages that would include links to those event registration websites. An affiliate relationship provided GetEvent with a small percentage of their registration fee.
+      <br/><br/>
+      Usable and responsive design with a scalable infrastructure. The import tool automatically added thousands of events that could be updated as needed.
+    </div>
+  </div>
+</div>
+
